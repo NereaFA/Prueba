@@ -1,5 +1,5 @@
 var numNachos = 2; 
-var precioNacho = 6,90; 
+var precioNacho = 6; 
 var numBurritos = 3; 
 var pBurrito = 9; 
 var iva = 0.21; 
@@ -11,7 +11,6 @@ function totalSegunProductos(numProducts, productPrice) {
 function añadeIva(total, iva) {
   return total * iva + total;
 }
-
 
 var totalPrecioNachos = totalSegunProductos(numNachos, precioNacho);
 
